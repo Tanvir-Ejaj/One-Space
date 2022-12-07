@@ -621,6 +621,10 @@
     z-index: 1;
   }
 
+  #service::before{
+    display: none;
+  }
+
   #service .slick-slide img {
     width: 100% !important;
     margin: 20px 0;
@@ -880,6 +884,10 @@
   #service {
     padding-top: 95px;
     padding-bottom: 66px;
+  }
+
+  #service::before{
+    display: none;
   }
 
   .vision-text p {
